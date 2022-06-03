@@ -1,0 +1,163 @@
+local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("Discord")
+
+local serv = win:Server("Fe", "")
+
+local lbls = serv:Channel("support-Games")
+
+lbls:Button(
+    "Features",
+    function()
+        DiscordLib:Notification("Notification", "all", "")
+        
+    end
+)
+
+local btns = serv:Channel("Fe-scripts")
+
+btns:Button(
+    "chams",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        pcall(loadstring(game:HttpGet("https://pastebin.com/raw/eH39iKSg")))
+    end
+)
+btns:Button(
+    "ctrl-delete",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        pcall(loadstring(game:HttpGet("https://pastebin.com/raw/KGYKmYtW")))
+    end
+)
+btns:Button(
+    "esp",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD ESP.txt"))()
+    end
+)
+btns:Button(
+    "fly-1",
+    function()
+        DiscordLib:Notification("Notification", "Done!, (press C)", "")
+        pcall(loadstring(game:HttpGet("https://pastebin.com/raw/ReJ0TXqg")))
+    end
+)
+btns:Button(
+    "fly-2",
+    function()
+        DiscordLib:Notification("Notification", "Done!, (press E)", "")
+        loadstring(game:HttpGet("https://pastebin.com/raw/jebnPDXh", true))()
+    end
+)
+btns:Button(
+    "fov-set",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        pcall(loadstring(game:HttpGet("https://pastebin.com/raw/PRw16c2Y")))
+    end
+)
+btns:Button(
+    "fov-reset",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        pcall(loadstring(game:HttpGet("https://pastebin.com/raw/Ux6Ucg9P")))
+    end
+)
+btns:Button(
+    "God-mode",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://pastebin.com/raw/FwfNEqYz", true))()
+    end
+)
+btns:Button(
+    "gravity",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        pcall(loadstring(game:HttpGet("https://pastebin.com/raw/0JgQ1hJy")))
+    end
+)
+btns:Button(
+    "inf-jump",
+    function()
+        DiscordLib:Notification("Notification", "Done!, (press V)", "")
+        pcall(loadstring(game:HttpGet("https://pastebin.com/raw/2wgbZ6Xd")))
+    end
+)
+btns:Button(
+    "reset",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://pastebin.com/raw/HMcCQbpk", true))()
+    end
+)
+btns:Button(
+    "less-lag",
+    function()
+        DiscordLib:Notification("Notification", "done!", "")
+        loadstring(game:HttpGet("https://pastebin.com/raw/eHEfAR8z", true))()
+    end
+)
+btns:Button(
+    "",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+        
+    end
+)
+btns:Button(
+    "",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+        
+    end
+)
+btns:Button(
+    "shift-run",
+    function()
+        DiscordLib:Notification("Notification", "done!", "")
+        repeat wait() until game.Players.LocalPlayer
+ 
+        m = game.Players.LocalPlayer:GetMouse()
+ 
+        m.KeyDown:connect(function(key)
+         if key == "0" then --"Shift to run" 0 == shift
+           print("Running")
+          game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200 --change "25" to your speed you want
+         end
+          end)
+ 
+          m.KeyUp:connect(function(key)
+         if key == "0" then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16 --change "16" to your speed you want when you stop running
+        end
+        end)
+          end
+)
+btns:Button(
+    "tp-tool",
+    function()
+        DiscordLib:Notification("Notification", "done!", "")
+        pcall(loadstring(game:HttpGet("https://pastebin.com/raw/njMw0Bke")))
+    end
+)
+btns:Button(
+    "x-ray",
+    function()
+        DiscordLib:Notification("Notification", "done!, (press X)", "")
+        loadstring(game:HttpGet("https://pastebin.com/raw/vNpnSDCz", true))()
+    end
+)
+
+
+local lbls = serv:Channel("back")
+
+btns:Button(
+    "",
+    function()
+        DiscordLib:Notification("Notification", "done!", "")
+        
+    end
+)

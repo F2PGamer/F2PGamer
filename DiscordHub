@@ -407,74 +407,6 @@ btns:Button(
     end
 )
 
-local btns = serv:Channel("Fe Scripts")
-
-btns:Button(
-    "AntiAfk",
-    function()
-        DiscordLib:Notification("Notification", "Done!", "")
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Anti-Afk/main/Script'))()
-    end
-)
-btns:Button(
-    "FPSBooster",
-    function()
-        DiscordLib:Notification("Notification", "Done!", "")
-        _G.Settings = {
-        Players = {
-            ["Ignore Me"] = true, -- Ignore your Character
-            ["Ignore Others"] = true -- Ignore other Characters
-        },
-        Meshes = {
-            Destroy = false, -- Destroy Meshes
-            LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
-        },
-        Images = {
-            Invisible = true, -- Invisible Images
-            LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
-            Destroy = false, -- Destroy Images
-        },
-        ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
-        ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
-        ["No Explosions"] = true, -- Makes Explosion's invisible
-        ["No Clothes"] = true, -- Removes Clothing from the game
-        ["Low Water Graphics"] = true, -- Removes Water Quality
-        ["No Shadows"] = true, -- Remove Shadows
-        ["Low Rendering"] = true, -- Lower Rendering
-        ["Low Quality Parts"] = true -- Lower quality parts
-    }
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
-    end
-)
-btns:Button(
-    "DarkDexV3",
-    function()
-        DiscordLib:Notification("Notification", "Done!", "")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
-    end
-)
-btns:Button(
-    "SimpleSpy",
-    function()
-        DiscordLib:Notification("Notification", "Done!", "")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))()
-    end
-)
-btns:Button(
-    "Infinite Yield",
-    function()
-        DiscordLib:Notification("Notification", "Done!", "")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-    end
-)
-btns:Button(
-    "Creator Challenge",
-    function()
-        DiscordLib:Notification("Notification", "Error404", "")
-        
-    end
-)
-
 local serv = win:Server("Exodus and Void", "")
 
 local lbls = serv:Channel("support")
@@ -756,5 +688,70 @@ btns:Button(
         loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/Fe-Hub.lua"))()
     end
 )
+local btns = serv:Channel("Fe Scripts")
 
-win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
+btns:Button(
+    "AntiAfk",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Anti-Afk/main/Script'))()
+    end
+)
+btns:Button(
+    "FPSBooster",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        _G.Settings = {
+        Players = {
+            ["Ignore Me"] = true, -- Ignore your Character
+            ["Ignore Others"] = true -- Ignore other Characters
+        },
+        Meshes = {
+            Destroy = false, -- Destroy Meshes
+            LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
+        },
+        Images = {
+            Invisible = true, -- Invisible Images
+            LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
+            Destroy = false, -- Destroy Images
+        },
+        ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
+        ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
+        ["No Explosions"] = true, -- Makes Explosion's invisible
+        ["No Clothes"] = true, -- Removes Clothing from the game
+        ["Low Water Graphics"] = true, -- Removes Water Quality
+        ["No Shadows"] = true, -- Remove Shadows
+        ["Low Rendering"] = true, -- Lower Rendering
+        ["Low Quality Parts"] = true -- Lower quality parts
+    }
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+    end
+)
+btns:Button(
+    "DarkDexV3",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+    end
+)
+btns:Button(
+    "SimpleSpy",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))()
+    end
+)
+btns:Button(
+    "Infinite Yield",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end
+)
+btns:Button(
+    "Creator Challenge",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+        
+    end
+)

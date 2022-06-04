@@ -1,0 +1,748 @@
+local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("Discord")
+
+local serv = win:Server("aztup-Paid", "")
+
+local lbls = serv:Channel("support")
+
+lbls:Button(
+    "website",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("https://aztupscripts.xyz")
+    end
+)
+lbls:Button(
+    "Discord-Aztup-Panda",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("https://discord.gg/pandas")
+    end
+)
+
+local drops = serv:Channel("support-Games")
+
+drops:Button(
+    "Features",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("https://aztupscripts.xyz/Features")
+    end
+)
+
+local drop =
+    drops:Dropdown(
+    "Game-support",
+    {"Deepwoken", "Jailbreak", "BloxBurg", "Bad Business", "Ro Ghoul","RoBeats", "Rogue Lineage", "Arsenal", "KAT", "World Zero", "Wild West", "Grand Piece Online", "Sword Burst 2","Parkour", "Apocalypse Rising 2", "Phantom Forces", "Robeats Community Server", "Adopt Me", "Ace Of Spadez", ""},
+    function()
+        print(no)
+    end
+)
+drops:Button(
+    "this button doesn't exist.",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+    end
+)
+
+local btns = serv:Channel("AztupHub")
+
+btns:Button(
+    "AztupHub V1",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+        setclipboard("https://aztupscripts.xyz")
+    end
+)
+btns:Button(
+    "AztupHub V2",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+        setclipboard("https://aztupscripts.xyz")
+    end
+)
+
+btns:Button(
+    "AztupHub V3",
+    function()
+        DiscordLib:Notification("Notification", "found AztupHub-V3     but you have to buy it if you want to use it now Error404", "")
+        setclipboard("https://aztupscripts.xyz")
+    end
+)
+
+btns:Seperator()
+
+
+local serv = win:Server("RIP", "")
+
+local lbls = serv:Channel("support")
+
+lbls:Button(
+    "website",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("https://aztupscripts.xyz")
+    end
+)
+lbls:Button(
+    "Discord-",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("")
+    end
+)
+
+local drops = serv:Channel("support-Games")
+
+drops:Button(
+    "Features",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("https://aztupscripts.xyz/Features")
+    end
+)
+
+local drop =
+    drops:Dropdown(
+    "Game-support",
+    {""},
+    function()
+        print(no)
+    end
+)
+drops:Button(
+    "isn't added yet",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+    end
+)
+
+local btns = serv:Channel("nr.1 RIP Scripts")
+
+btns:Button(
+    "Millionaire Empire Tycoon",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/MillionaireEmpireTycoon.lua"))()
+    end
+)
+btns:Button(
+    "2 Player Millionaire Millionaire Tycoon",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/2PlayerMillionaireTycoon.lua"))()
+    end
+)
+btns:Button(
+    "24k Goldn Concert Experience",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/24kGoldnConcertExperience.lua"))()
+    end
+)
+
+btns:Button(
+    "Alo Sanctuary",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AloSanctuary.lua"))()
+    end
+)
+btns:Button(
+    "Animal Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua"))()
+    end
+)
+btns:Button(
+    "Beatland",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/Beatland.lua"))()
+    end
+)
+btns:Button(
+    "Boom Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/BoomSimulator.lua"))()
+    end
+)
+btns:Button(
+    "Collect All Pets",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/CollectAllPets.lua"))()
+    end
+)
+btns:Button(
+    "Limited Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/LimitedSimulator.lua"))()
+    end
+)
+btns:Button(
+    "Mall Tycoon",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/MallTycoon.lua"))()
+    end
+)
+btns:Button(
+    "Tsunami Game",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/TsunamiGame.lua"))()
+    end
+)
+btns:Button(
+    "NFL Tycoon",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/NFLTycoon.lua"))()
+    end
+)
+btns:Button(
+    "Thief Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/ThiefSimulator.lua"))()
+    end
+)
+btns:Button(
+    "Sword Factory X",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/SwordFactoryX.lua"))()
+    end
+)
+btns:Button(
+    "Strongman Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/StrongmanSimulator.lua"))()
+    end
+)
+btns:Button(
+    "NIKELAND",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/NIKELAND.lua"))()
+    end
+)
+btns:Button(
+    "Natural Disaster Survival",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/NaturalDisasterSurvival.lua"))()
+    end
+)
+btns:Button(
+    "Chipotle Burrito Builder",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/ChipotleBurritoBuilder.lua"))()
+    end
+)
+btns:Button(
+    "RECOIL 💀 ZOMBIES 💀",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/RecoilZombies.lua"))()
+    end
+)
+btns:Button(
+    "Build A Boat For Treasure",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/BuildABoatForTreasure.lua"))()
+    end
+)
+btns:Button(
+    "Ultimate Driving: Westover Islands",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/UltimateDriving.lua"))()
+    end
+)
+
+local btns = serv:Channel("nr.2 RIP Scripts")
+
+btns:Button(
+    "Vans World",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/VansWorld.lua"))()
+    end
+)
+btns:Button(
+    "Vehicle Champions",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/VehicleChampions.lua"))()
+    end
+)
+btns:Button(
+    "VehicleLegends",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/VehicleLegends.lua"))()
+    end
+)
+btns:Button(
+    "Vehicle Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/VehicleSimulator.lua"))()
+    end
+)
+btns:Button(
+    "Driving Empire",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/DrivingEmpire.lua"))()
+    end
+)
+btns:Button(
+    "Universal Vehicle GUI",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/UniversalVehicleGUI.lua"))()
+    end
+)
+
+local btns = serv:Channel("vfvo Scripts")
+
+btns:Button(
+    "Life Sentence",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/vfvo/life-sentence/main/lifesentence.lua'))()
+    end
+)
+btns:Button(
+    "Mega Mansion Tycoon",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/vfvo/megamansions-tycoon/main/megamansiontycoon.lua'))()
+    end
+)
+btns:Button(
+    "Slayer Tycoon",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/vfvo/slayer-tycoon/main/sds.lua'))()
+    end
+)
+btns:Button(
+    "Trade Tower",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/vfvo/trade-tower/main/tradesim.lua'))()
+    end
+)
+btns:Button(
+    "Pressure Wash Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/vfvo/scripts/main/pressurewashingsim.lua'))()
+    end
+)
+btns:Button(
+    "Blending Simulator 2",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/vfvo/scripts/main/blendingsim2.lua'))()
+    end
+)
+btns:Button(
+    "Weapon Fighting Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/vfvo/scripts/main/weaponfightsim.lua'))() 
+    end
+)
+
+local btns = serv:Channel("MXXS Scripts")
+
+btns:Button(
+    "Islands",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Mxxss/RBLX-Scripts/main/Islands.lua"))()
+    end
+)
+btns:Button(
+    "Build a Boat to Survive!",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Mxxss/RBLX-Scripts/main/Build%20a%20Boat%20to%20Survive.lua"))()
+    end
+)
+btns:Button(
+    "Star Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Mxxss/RBLX-Scripts/main/StarSimulator.lua"))()
+    end
+)
+btns:Button(
+    "Roblox Titanic",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/RobloxTitanic.lua"))()
+    end
+)
+
+local btns = serv:Channel("Hub")
+
+btns:Button(
+    "RIP hub",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AllScripts.lua"))()
+    end
+)
+
+local btns = serv:Channel("Fe Scripts")
+
+btns:Button(
+    "AntiAfk",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Anti-Afk/main/Script'))()
+    end
+)
+btns:Button(
+    "FPSBooster",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        _G.Settings = {
+        Players = {
+            ["Ignore Me"] = true, -- Ignore your Character
+            ["Ignore Others"] = true -- Ignore other Characters
+        },
+        Meshes = {
+            Destroy = false, -- Destroy Meshes
+            LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
+        },
+        Images = {
+            Invisible = true, -- Invisible Images
+            LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
+            Destroy = false, -- Destroy Images
+        },
+        ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
+        ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
+        ["No Explosions"] = true, -- Makes Explosion's invisible
+        ["No Clothes"] = true, -- Removes Clothing from the game
+        ["Low Water Graphics"] = true, -- Removes Water Quality
+        ["No Shadows"] = true, -- Remove Shadows
+        ["Low Rendering"] = true, -- Lower Rendering
+        ["Low Quality Parts"] = true -- Lower quality parts
+    }
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+    end
+)
+btns:Button(
+    "DarkDexV3",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+    end
+)
+btns:Button(
+    "SimpleSpy",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))()
+    end
+)
+btns:Button(
+    "Infinite Yield",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end
+)
+btns:Button(
+    "Creator Challenge",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+        
+    end
+)
+
+local serv = win:Server("Exodus and Void", "")
+
+local lbls = serv:Channel("support")
+
+lbls:Button(
+    "website",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("https://aztupscripts.xyz")
+    end
+)
+lbls:Button(
+    "Discord-",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("")
+    end
+)
+
+local drops = serv:Channel("support-Games")
+
+drops:Button(
+    "Features",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("https://aztupscripts.xyz/Features")
+    end
+)
+
+local drop =
+    drops:Dropdown(
+    "Game-support",
+    {""},
+    function()
+        print(no)
+    end
+)
+drops:Button(
+    "isn't added yet",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+    end
+)
+
+local btns = serv:Channel("Exodus Scripts 1")
+
+btns:Button(
+    "NinjaLegends v3",
+    function()
+        DiscordLib:Notification("Notification", "offline!", "")
+        
+    end
+)
+btns:Button(
+    "NinjaLegends 2",
+    function()
+        DiscordLib:Notification("Notification", "offline!", "")
+        
+    end
+)
+btns:Button(
+    "Mad-Lads AR (Ban risk)",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://www.system-exodus.com/scripts/madcity/MadLadsAR.lua'))()
+    end
+)
+btns:Button(
+    "Pet Simulator X (Active Admins)",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua', true))()
+    end
+)
+btns:Button(
+    "Islands",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet('https://system-exodus.com/scripts/Islands/Islands.lua', true))()
+    end
+)
+
+local btns = serv:Channel("Exodus Scripts 2")
+
+btns:Button(
+    "Battle Gods Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet(('https://system-exodus.com/scripts/misc-releases/battlegods.lua'), true))()
+    end
+)
+btns:Button(
+    "Lift Legends Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet(('https://system-exodus.com/scripts/misc-releases/liftlegends.lua'), true))()
+    end
+)
+btns:Button(
+    "Little World",
+    function()
+        DiscordLib:Notification("Notification", "offline!", "")
+        
+    end
+)
+btns:Button(
+    "Supernatural Simulator",
+    function()
+        DiscordLib:Notification("Notification", "offline!", "")
+        
+    end
+)
+btns:Button(
+    "Super Evolution v2",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet(('https://system-exodus.com/scripts/misc-releases/superevolution.lua'), true))()
+    end
+)
+btns:Button(
+    "Farm for Fun",
+    function()
+        DiscordLib:Notification("Notification", "offline!", "")
+        
+    end
+)
+btns:Button(
+    "Vehicle Simulator",
+    function()
+        DiscordLib:Notification("Notification", "offline!", "")
+        
+    end
+)
+
+local btns = serv:Channel("Void Scripts")
+
+btns:Button(
+    "My Restaurant",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
+    end
+)
+
+local serv = win:Server("Hub-key-system", "")
+
+local lbls = serv:Channel("support")
+
+lbls:Button(
+    "website",
+    function()
+        DiscordLib:Notification("Notification", "", "")
+        setclipboard("")
+    end
+)
+lbls:Button(
+    "Discord-",
+    function()
+        DiscordLib:Notification("Notification", "", "")
+        setclipboard("")
+    end
+)
+
+lbls:Button(
+    "website",
+    function()
+        DiscordLib:Notification("Notification", "", "")
+        setclipboard("")
+    end
+)
+lbls:Button(
+    "Discord-",
+    function()
+        DiscordLib:Notification("Notification", "", "")
+        setclipboard("")
+    end
+)
+
+local btns = serv:Channel("Key")
+
+btns:Button(
+    "Vanity-key",
+    function()
+        DiscordLib:Notification("Notification", "Done!, here's your key (clipboard)", "")
+        setclipboard("OZRrRkTAh3opLAIeAg76RIrKkbdZwbo8")
+    end
+)
+
+btns:Button(
+    "Vynixius-key",
+    function()
+        DiscordLib:Notification("Notification", "Done!, here's your key (clipboard)", "")
+        setclipboard("sx_57rvQEOYByjJn6AE3")
+    end
+)
+
+btns:Button(
+    "nothing",
+    function()
+        DiscordLib:Notification("Notification", "Error404, here's your key (clipboard)", "")
+        
+    end
+)
+
+local btns = serv:Channel("Hub")
+
+btns:Button(
+    "VanityHub",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LvxLife/VanityHub/main/Loader.lua"))()
+    end
+)
+btns:Button(
+    "Vynixius",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+    end
+)btns:Button(
+    "nothing",
+    function()
+        DiscordLib:Notification("Notification", "Error404", "")
+        
+    end
+)
+
+local serv = win:Server("Scripts-no-key-system", "")
+
+local lbls = serv:Channel("support")
+
+lbls:Button(
+    "website",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("")
+    end
+)
+lbls:Button(
+    "Discord-",
+    function()
+        DiscordLib:Notification("Notification", "clipboard", "")
+        setclipboard("")
+    end
+)
+
+local btns = serv:Channel("Scripts")
+
+btns:Button(
+    "Gas Station Simulator",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/ophello-/main/dwnjioanuiowd", true))()
+    end
+)
+btns:Button(
+    "Gas Station Simulator useless",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/qwdbnuibnqwds/main/wdqnuiod", true))()
+    end
+)
+btns:Button(
+    "Gas Station Simulator useless",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/fnujfiewibuewd/main/njkofnkjiewd", true))()
+    end
+)
+
+win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")

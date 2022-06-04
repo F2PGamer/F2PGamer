@@ -151,13 +151,14 @@ btns:Button(
     end
 )
 
+local serv = win:Server("Discord", "")
 
-local lbls = serv:Channel("back")
+local btns = serv:Channel("Discord-Hub")
 
 btns:Button(
     "",
     function()
         DiscordLib:Notification("Notification", "done!", "")
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/DiscordHub.lua"))()
     end
 )

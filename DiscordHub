@@ -745,4 +745,16 @@ btns:Button(
     end
 )
 
+local serv = win:Server("FE", "")
+
+local btns = serv:Channel("FE-Hub")
+
+btns:Button(
+    "Fe-Hub",
+    function()
+        DiscordLib:Notification("Notification", "Done!", "")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/Fe-Hub.lua"))()
+    end
+)
+
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")

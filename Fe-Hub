@@ -159,6 +159,6 @@ btns:Button(
     "Discord-Hub",
     function()
         DiscordLib:Notification("Notification", "done!", "")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/DiscordHub.lua"))()
+        pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/DiscordHub")))
     end
 )

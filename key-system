@@ -108,7 +108,7 @@ Login.MouseButton1Click:Connect(function()
 		wait(0.5)
 		OpenFrame.Visible = false
 		wait(0.5)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/DiscordHub.lua"))()
+		pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/DiscordHub")))
 	end
 end)
 

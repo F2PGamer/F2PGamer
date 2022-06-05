@@ -1,0 +1,246 @@
+--[[
+    selfmade for fun (only for myself just like the scripts 
+    credits to the owner's from the scripts
+]]--
+
+
+local Main = Instance.new("ScreenGui")
+local OpenFrame = Instance.new("Frame")
+local DiscordHub = Instance.new("TextLabel")
+local open = Instance.new("TextButton")
+local X = Instance.new("TextButton")
+local LoginFrame = Instance.new("Frame")
+local Login = Instance.new("TextButton")
+local clear = Instance.new("TextButton")
+local Getkey = Instance.new("TextButton")
+local DiscordHub_2 = Instance.new("TextLabel")
+local Discord = Instance.new("TextButton")
+local UIGradient = Instance.new("UIGradient")
+local AbloveWall = Instance.new("Frame")
+local BelowWall = Instance.new("Frame")
+local LeftWall = Instance.new("Frame")
+local RightWall = Instance.new("Frame")
+local close = Instance.new("TextButton")
+local minimize = Instance.new("TextButton")
+local check = Instance.new("TextBox")
+
+Main.Parent = game.CoreGui
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = Main
+OpenFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+OpenFrame.Position = UDim2.new(0, 0, 0.531378984, 0)
+OpenFrame.Size = UDim2.new(0, 132, 0, 61)
+
+DiscordHub.Name = "DiscordHub"
+DiscordHub.Parent = OpenFrame
+DiscordHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DiscordHub.BorderColor3 = Color3.fromRGB(255, 0, 0)
+DiscordHub.Position = UDim2.new(-0.00646169251, 0, 0.0147367781, 0)
+DiscordHub.Size = UDim2.new(0, 108, 0, 18)
+DiscordHub.Font = Enum.Font.SourceSans
+DiscordHub.Text = "DiscordHub"
+DiscordHub.TextColor3 = Color3.fromRGB(14, 14, 255)
+DiscordHub.TextSize = 14.000
+
+open.Name = "open"
+open.Parent = OpenFrame
+open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+open.BorderColor3 = Color3.fromRGB(255, 0, 0)
+open.Position = UDim2.new(0.0303030312, 0, 0.499575078, 0)
+open.Size = UDim2.new(0, 124, 0, 18)
+open.Font = Enum.Font.SourceSans
+open.Text = "Open"
+open.TextColor3 = Color3.fromRGB(0, 255, 17)
+open.TextSize = 14.000
+
+open.TextWrapped = true
+open.MouseButton1Click:Connect(function()
+	LoginFrame.Visible = true
+	wait(0.5)
+	OpenFrame.Visible = false
+	wait(0.1)
+end)
+
+
+X.Name = "X"
+X.Parent = OpenFrame
+X.BackgroundColor3 = Color3.fromRGB(39, 4, 0)
+X.BorderColor3 = Color3.fromRGB(255, 0, 0)
+X.Position = UDim2.new(0.817024946, 0, 0.0173220579, 0)
+X.Size = UDim2.new(0, 23, 0, 18)
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 0, 0)
+X.TextSize = 14.000
+
+X.TextWrapped = true
+X.MouseButton1Click:Connect(function()
+	LoginFrame.Visible = false
+	wait(0.5)
+	OpenFrame.Visible = false
+	wait(0.5)
+end)
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = Main
+LoginFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LoginFrame.Position = UDim2.new(0.194285721, 0, 0.226771653, 0)
+LoginFrame.Size = UDim2.new(0, 641, 0, 346)
+LoginFrame.Visible = false
+
+
+Login.Name = "Login"
+Login.Parent = LoginFrame
+Login.BackgroundColor3 = Color3.fromRGB(11, 255, 51)
+Login.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Login.Position = UDim2.new(0.493000001, 0, 0.556999981, 0)
+Login.Size = UDim2.new(0, 160, 0, 24)
+Login.Font = Enum.Font.SourceSans
+Login.Text = "Login"
+Login.TextColor3 = Color3.fromRGB(0, 0, 0)
+Login.TextSize = 14.000
+
+Login.MouseButton1Click:Connect(function()
+	if check.Text == "ONFJSK-103749-LdofnK-OSMAJD-OAnsik-PäÜöaj" then
+		LoginFrame.Visible = false
+		wait(0.5)
+		OpenFrame.Visible = false
+		wait(0.5)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/DiscordHub.lua"))()
+	end
+end)
+
+clear.Name = "clear"
+clear.Parent = LoginFrame
+clear.BackgroundColor3 = Color3.fromRGB(255, 14, 14)
+clear.BorderColor3 = Color3.fromRGB(255, 255, 255)
+clear.Position = UDim2.new(0.495000005, 0, 0.629000008, 0)
+clear.Size = UDim2.new(0, 159, 0, 25)
+clear.Font = Enum.Font.SourceSans
+clear.Text = "Clear"
+clear.TextColor3 = Color3.fromRGB(0, 0, 0)
+clear.TextSize = 14.000
+
+Getkey.Name = "Get key"
+Getkey.Parent = LoginFrame
+Getkey.BackgroundColor3 = Color3.fromRGB(0, 251, 255)
+Getkey.BorderColor3 = Color3.fromRGB(254, 250, 250)
+Getkey.Position = UDim2.new(0.256000012, 0, 0.563000023, 0)
+Getkey.Size = UDim2.new(0, 152, 0, 21)
+Getkey.Font = Enum.Font.SourceSans
+Getkey.Text = "Get key (buy)"
+Getkey.TextColor3 = Color3.fromRGB(0, 0, 0)
+Getkey.TextSize = 14.000
+Getkey.TextWrapped = true
+Getkey.MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Copied!", Text = "Link Successfully Copied!", Icon = "", Duration = 3})
+	wait(1)
+	setclipboard("no")
+end)
+
+DiscordHub_2.Name = "DiscordHub"
+DiscordHub_2.Parent = LoginFrame
+DiscordHub_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DiscordHub_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+DiscordHub_2.Position = UDim2.new(0.379095167, 0, 0.0809248537, 0)
+DiscordHub_2.Size = UDim2.new(0, 161, 0, 30)
+DiscordHub_2.Font = Enum.Font.SourceSans
+DiscordHub_2.Text = "DiscordHub"
+DiscordHub_2.TextColor3 = Color3.fromRGB(14, 14, 255)
+DiscordHub_2.TextScaled = true
+DiscordHub_2.TextSize = 14.000
+DiscordHub_2.TextWrapped = true
+
+Discord.Name = "Discord"
+Discord.Parent = LoginFrame
+Discord.BackgroundColor3 = Color3.fromRGB(46, 10, 255)
+Discord.BorderColor3 = Color3.fromRGB(254, 250, 250)
+Discord.Position = UDim2.new(0.25590384, 0, 0.629473746, 0)
+Discord.Size = UDim2.new(0, 152, 0, 25)
+Discord.Font = Enum.Font.SourceSans
+Discord.Text = "Discord"
+Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord.TextSize = 14.000
+
+UIGradient.Parent = LoginFrame
+
+AbloveWall.Name = "AbloveWall"
+AbloveWall.Parent = LoginFrame
+AbloveWall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AbloveWall.BorderColor3 = Color3.fromRGB(255, 0, 0)
+AbloveWall.Size = UDim2.new(0, 641, 0, 22)
+
+BelowWall.Name = "BelowWall"
+BelowWall.Parent = LoginFrame
+BelowWall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BelowWall.BorderColor3 = Color3.fromRGB(255, 0, 0)
+BelowWall.Position = UDim2.new(0, 0, 0.943768799, 0)
+BelowWall.Size = UDim2.new(0, 641, 0, 19)
+
+LeftWall.Name = "LeftWall"
+LeftWall.Parent = LoginFrame
+LeftWall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LeftWall.BorderColor3 = Color3.fromRGB(255, 0, 0)
+LeftWall.Position = UDim2.new(-0.00200000009, 0, 0, 0)
+LeftWall.Size = UDim2.new(0, 16, 0, 345)
+
+RightWall.Name = "RightWall"
+RightWall.Parent = LoginFrame
+RightWall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RightWall.BorderColor3 = Color3.fromRGB(255, 0, 0)
+RightWall.Position = UDim2.new(0.973999977, 0, 0.00300000003, 0)
+RightWall.Size = UDim2.new(0, 16, 0, 345)
+
+close.Name = "close"
+close.Parent = LoginFrame
+close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderColor3 = Color3.fromRGB(255, 0, 0)
+close.Position = UDim2.new(0.935116887, 0, 0.00385560095, 0)
+close.Size = UDim2.new(0, 23, 0, 18)
+close.Font = Enum.Font.SourceSans
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
+close.TextSize = 14.000
+
+close.TextWrapped = true
+close.MouseButton1Click:Connect(function()
+	LoginFrame.Visible = false
+	wait(0.5)
+	OpenFrame.Visible = false
+	wait(0.5)
+end)
+
+minimize.Name = "minimize"
+minimize.Parent = LoginFrame
+minimize.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+minimize.BorderColor3 = Color3.fromRGB(255, 0, 0)
+minimize.Position = UDim2.new(0.898999989, 0, 0.00400000019, 0)
+minimize.Size = UDim2.new(0, 23, 0, 18)
+minimize.Font = Enum.Font.SourceSans
+minimize.Text = "_"
+minimize.TextColor3 = Color3.fromRGB(4, 255, 0)
+minimize.TextSize = 14.000
+minimize.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+
+minimize.TextWrapped = true
+minimize.MouseButton1Click:Connect(function()
+	LoginFrame.Visible = false
+	wait(0.5)
+	OpenFrame.Visible = true
+	wait(0.4)
+end)
+
+check.Name = "check"
+check.Parent = LoginFrame
+check.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+check.BorderColor3 = Color3.fromRGB(255, 255, 255)
+check.Position = UDim2.new(0.256000012, 0, 0.442999989, 0)
+check.Size = UDim2.new(0, 312, 0, 40)
+check.Font = Enum.Font.SourceSans
+check.PlaceholderColor3 = Color3.fromRGB(255, 252, 239)
+check.Text = "Key Here"
+check.TextColor3 = Color3.fromRGB(255, 252, 239)
+check.TextSize = 14.000
+check.TextWrapped = true

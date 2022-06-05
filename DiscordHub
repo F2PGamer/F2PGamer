@@ -685,7 +685,7 @@ btns:Button(
     "Fe-Hub",
     function()
         DiscordLib:Notification("Notification", "Done!", "")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/Fe-Hub.lua"))()
+        pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/F2PGamer/F2PGamer/main/Fe-Hub.lua")))
     end
 )
 local btns = serv:Channel("Fe Scripts")
